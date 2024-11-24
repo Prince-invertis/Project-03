@@ -1,0 +1,69 @@
+/* styles.css */
+/*body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    margin: 0;
+}
+*/
+#clockContainer{
+    position: relative;
+    margin: auto;
+    width: 40vw; /* Adjust based on your image size */
+    height: 40vw; /* Adjust based on your image size */
+    background: url('image.png') no-repeat; /* Your clock image */
+    background-size: 100%;/* Ensures the image covers the clock area */
+    
+    
+}
+
+#hour, #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+}
+
+#hour{
+    left: 49.5%;
+    top: 22%;
+    width: 1.9%;
+    height: 20%;
+    opacity: 0.8;
+transform-origin: bottom;
+    
+}
+
+#minute {
+    
+    left: 49.2%;
+    top: 17%;
+    width: 1.5%;
+    height: 25%;
+    opacity: 0.8;
+  transform-origin: bottom;
+
+}
+
+#second {
+    
+    left: 49.7%;
+    top: 16%;
+    width: 1%;
+    height: 25%;
+    opacity: 0.8;
+    transform-origin: bottom;
+    
+}
+
+/*.center {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: black;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
